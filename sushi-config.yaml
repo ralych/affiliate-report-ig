@@ -3,8 +3,8 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.ic.affiliate-report
-canonical: http://affiliate-report.ic.hl7.org
+id: hl7.fhir.uv.affiliate-report
+canonical: http://affiliate-report.uv.hl7.org
 name: AffiliateReportIG
 title: Affiliate Report Implementation Guide
 description: Implementation Guide describing the affiliate report using FHIR resources.
@@ -88,11 +88,13 @@ menu:
 # ContactDetail.
 #
 contact:
-  - name: Roeland Luykx
+  - name: International Council
     telecom:
-      - system: email # phone | fax | email | pager | url | sms | other
-        value: roeland.luykx@raly.ch
-        use: work
+       - system: url
+         value: http://www.hl7.org/
+#      - system: email # phone | fax | email | pager | url | sms | other
+#        value: roeland.luykx@raly.ch
+#        use: work
 #
 #
 # The global property corresponds to the IG.global property, but it
