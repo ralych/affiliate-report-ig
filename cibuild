@@ -1,0 +1,27 @@
+#!/bin/bash
+
+startdate=`date +%s`
+
+rm -rf temp template output input-cache narr-generated fsh-generated
+
+java -Xms4096m -Xmx4096m -jar $PUBLISHER -ig ig.ini
+
+enddate=`date +%s`
+echo "Started      : " `date --date="@$startdate"`
+echo "Ended        : " `date --date="@$enddate"`
+
+diff=$((enddate - startdate))
+
+if (( $diff < 60 ))
+then 
+  echo "Duration [s]: $diff"
+elif (( $diff > 60 && $diff < 3600 ))
+then
+  echo "Duration [m]: $(( $diff / 60 ))"
+else
+  echo "Duration [h]: $(( $diff / 3600 ))"
+fi
+
+exit 0
+
+exit 0
