@@ -22,7 +22,7 @@ Description: "An example of a Affiliate"
   * system = #url
   * value = "https://www.hl7.ch"
 * contact[0]
-  * purpose = $affiliate-report-contact-purpose-cs#CHAIR
+  * purpose = ContactPurposeCs#CHAIR
   * name
     * family = "Luykx"
     * given = "Roeland"
@@ -41,7 +41,7 @@ Description: "An example of a Affiliate"
     * system = #email
     * value = "rl@example.org"
 * contact[1]
-  * purpose = $affiliate-report-contact-purpose-cs#TM
+  * purpose = ContactPurposeCs#TM
   * name
     * family = "Ziegler"
     * given = "Michaela"

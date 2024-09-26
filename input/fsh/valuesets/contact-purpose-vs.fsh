@@ -2,9 +2,10 @@ ValueSet: ContactPurposeVs
 Id: affiliate-report-contact-purpose-vs
 Title: "Affiliate Report Contact Purpose ValueSet"
 Description: "Contact Purpose ValueSet"
+* ^experimental = false
 
-* $affiliate-report-contact-purpose-cs#CHAIR "The chair contact"
-* $affiliate-report-contact-purpose-cs#VICECHAIR "The vice chair contact"
-* $affiliate-report-contact-purpose-cs#TL "The technical lead"
-* $affiliate-report-contact-purpose-cs#TM "The technical manager"
-* $affiliate-report-contact-purpose-cs#HQ "The headquater contact"
+* ContactPurposeCs#CHAIR "The chair contact"
+* ContactPurposeCs#VICECHAIR "The vice chair contact"
+* ContactPurposeCs#TL "The technical lead"
+* ContactPurposeCs#TM "The technical manager"
+* ContactPurposeCs#HQ "The headquater contact"

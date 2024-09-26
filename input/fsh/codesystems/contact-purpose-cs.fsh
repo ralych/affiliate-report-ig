@@ -2,6 +2,8 @@ CodeSystem: ContactPurposeCs
 Id: affiliate-report-contact-purpose-cs
 Title: "Affiliate Report Contact Purpose CodeSystem"
 Description: "Contact Purpose CodeSystem"
+* ^experimental = false
+* ^caseSensitive = true
 
 * #CHAIR "The chair contact"
 * #VICECHAIR "The vice chair contact"

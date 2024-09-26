@@ -1,8 +1,8 @@
 Instance: AffiliateReportQuestionnaireForm
 InstanceOf: AffiliateReportQuestionnaire
 Description: "The questionaire definition for affiliate report form."
-* url = "http://affiliate-report.acme.hl7.org/Questionnaire/affiliate-report-questionnaire-form"
-* id = "AffiliateReportQuestionnaireForm"
+* url = "http://affiliate-report.acme.hl7.org/Questionnaire/AffiliateReportQuestionnaire"
+* id = "AffiliateReportQuestionnaire"
 * name = "AffiliateReportQuestionnaireForm"
 * title = "Affiliate Report Questionnaire Form"
 * status = #draft

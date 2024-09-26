@@ -1,7 +1,9 @@
-CodeSystem: MemberNumberType
+CodeSystem: MemberNumberTypeCs
 Id: member-number-type-cs
-Title: "Member Number Type"
-Description: "Member Number Type"
+Title: "Member Number Type CS"
+Description: "Member Number Type CS"
+* ^experimental = false
+* ^caseSensitive = true
 
 * #acares.individual "Academic/Research Individual"
 * #acares.organizational "Academic/Research Organizational"
