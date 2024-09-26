@@ -5,6 +5,7 @@ Description: "Affiliate Report Section CodeSystem"
 * ^experimental = false
 * ^caseSensitive = true
 
+* #affiliation "Affiliation"
 * #members "Member Numbers"
 * #meetings "Meetings"
 * #elections "Elections"

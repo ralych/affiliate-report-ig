@@ -13,12 +13,17 @@ Description: "Definition of the Affiliate Report Composition"
 * section ^slicing.ordered = false
 * section ^slicing.rules = #open
 * section contains
-    members 1..1 and
+    affiliation 0..1 and
+    membernumbers 1..3 and
     meetings 0..1 and
     elections 0..1 and
     boardcomposition 0..1
 
-* section[members]
+* section[affiliation]
+  * code = SectionTypeCs#affiliation
+  * entry only Reference(OrganizationAffiliation)
+
+* section[membernumbers]
   * code = SectionTypeCs#members
   * entry only Reference(MembersNumber)
 

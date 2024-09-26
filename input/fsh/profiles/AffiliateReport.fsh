@@ -10,15 +10,20 @@ Description: "Definition of the Affiliate Report Document"
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.rules = #open
 * entry contains
-    Composition 1..1 and
-    Affiliate 1..1
+    Composition 1..1 
+//    Affiliate 1..2 and
+//    Affiliation 0..1
 
 * entry[Composition] ^short = "Affiliate Report Composition"
 * entry[Composition].resource 1..
 * entry[Composition].resource only AffiliateReportComposition
 
-* entry[Affiliate] ^short = "Affiliate Organization"
-* entry[Affiliate].resource 1..
-* entry[Affiliate].resource only Affiliate
+//* entry[Affiliate] ^short = "Affiliate Organization"
+//* entry[Affiliate].resource 1..
+//* entry[Affiliate].resource only Affiliate
+
+//* entry[Affiliation] ^short = "Affiliate Affiliation"
+//* entry[Affiliation].resource 1..
+//* entry[Affiliation].resource only OrganizationAffiliation
 
 

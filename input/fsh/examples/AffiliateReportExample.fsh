@@ -13,6 +13,12 @@ Description: "An example of a Affiliate Report"
   * fullUrl = "urn:uuid:e7dc85d2-220f-4f5e-b5f7-f14cf8121789"
   * resource = AffiliateExample
 * entry[+]
+  * fullUrl = "urn:uuid:6d239997-e528-4659-a0c6-a8275e222fe1"
+  * resource = AffiliateExampleRegion
+* entry[+]
+  * fullUrl = "urn:uuid:3ff9449c-f1f3-4115-8096-e0fede171d49"
+  * resource = AffiliateAffiliationExample
+* entry[+]
   * fullUrl = "urn:uuid:dfcc110e-b0d8-45d2-be81-05a69db9945e"
   * resource = MembersNumberExample1
 
@@ -27,4 +33,5 @@ Description: "An example of a Affiliate Report Composition"
 * type = ReportTypeCs#report
 * date = "2024-09-25T00:00:00.000+00:00"
 * author.reference = "urn:uuid:e7dc85d2-220f-4f5e-b5f7-f14cf8121789"
-* section[members].entry.reference = "urn:uuid:dfcc110e-b0d8-45d2-be81-05a69db9945e"
+* section[affiliation].entry.reference = "urn:uuid:3ff9449c-f1f3-4115-8096-e0fede171d49"
+* section[membernumbers].entry.reference = "urn:uuid:dfcc110e-b0d8-45d2-be81-05a69db9945e"
