@@ -3,8 +3,8 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.uv.affiliate-report
-canonical: http://affiliate-report.uv.hl7.org
+id: fhir.acme.affiliate-report
+canonical: http://affiliate-report.acme.hl7.org
 name: AffiliateReportIG
 title: Affiliate Report Implementation Guide
 description: Implementation Guide describing the affiliate report using FHIR resources.
@@ -30,7 +30,11 @@ publisher:
 #     id: mcode
 #     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
 #     version: 1.0.0
-#
+dependencies:
+  hl7.fhir.uv.sdc:
+    version: 3.0.0
+    uri: http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc
+    id: sdc
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in

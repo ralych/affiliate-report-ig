@@ -1,8 +1,9 @@
 Profile: AffiliateReport
 Parent: Bundle
-Id: affiliate-report
+Id: affiliate-report-document
 Title: "Affiliate Report"
 Description: "Definition of the Affiliate Report Document"
+* ^experimental = false
 * type = #document (exactly)
 * timestamp ^short = "The document's creation date and time"
 * entry ^slicing.discriminator.type = #profile
@@ -20,10 +21,4 @@ Description: "Definition of the Affiliate Report Document"
 * entry[Affiliate].resource 1..
 * entry[Affiliate].resource only Affiliate
 
-
-Profile: AffiliateReportComposition
-Parent: Composition
-Id: affiliate-report-composition
-Title: "Affiliate Report composition"
-Description: "Definition of the Affiliate Report Composition"
 
