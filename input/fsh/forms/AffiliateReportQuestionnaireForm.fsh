@@ -60,4 +60,3 @@ Description: "The questionaire definition for affiliate report form."
 * item[=].item[=].item[=].item[=].item[+].linkId = "form.affiliatestructure.composition.consultant.honory"
 * item[=].item[=].item[=].item[=].item[=].type = #integer
 * item[=].item[=].item[=].item[=].item[=].text = "Honary Member"
-
